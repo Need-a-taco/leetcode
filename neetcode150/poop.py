@@ -1,9 +1,5 @@
-class ListNode:
-     def __init__(self, val=0, next=None):
-         self.val = val
-         self.next = next
-         
-hd = ListNode() 
-tl = hd
-print(hd)
-print(tl)
+x = {'c','b','a'}
+y = {'a', 'b', 'c'}
+
+x.remove('c')
+print(x)

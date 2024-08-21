@@ -47,11 +47,11 @@ def neet_sol(s: str) -> int:
     
     for i in range(len(s)):
         while s[i] in setmap:
-            setmap.remove(s[l])
+            setmap.remove(s[L])
             L += 1
         setmap.add(s[i])
         # size of set works no?
         largest = max(largest, i - L + 1)
     return largest
 test_str = "caab"
-print(snd_sol(test_str))
+print(neet_sol(test_str))
